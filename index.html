@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .title-cards {
+            display: flex;
+            font-size: 1.1em;
+            text-align: left;
+        }
+
+        .title-cards img {
+            border-radius: 10px;
+            margin-right: 20px;
+            width: 100px;
+            height: auto;
+        }
+
+        .technologies {
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+.technologies2{
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+.technology-card {
+    text-align: center;
+    margin-bottom: 20px;
+    width: calc(25% - 20px);
+}
+
+.technology-card2 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: calc(25% - 20px);
+}
+
+.technology-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.technology-card2 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.technology-card2 p a {
+    text-decoration: none;
+
+}
+
+@media (max-width: 767px) {
+    .technologies {
+        max-width: 100%;
+        margin: 20px auto;
+        justify-content: space-between;
+    }
+    .technologies2 {
+        max-width: 100%;
+        margin: 20px auto;
+        justify-content: space-between;
+    }
+    .technology-card {
+        width: calc(30% - 10px);
+    }
+    .technology-card2 {
+          
+        width: calc(30% - 10px);
+    }
+    
+}
+
+        /* Estilos adicionales para la clase card */
+        .card {
+            
+    text-align: center;
+    margin: 20px auto; /* Cambiado el margen */
+    max-width: 200px;
+    width: 100%;
+   
+  
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .contenido-card {
+            margin-top: 10px;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="html and plug/css/botones prueba.css">
+    <script src="html and plug/jquery-3.5.1.min.js"></script>
+    <script src="html and plug/main.js"></script>
+    <script src="https://kit.fontawesome.com/1e6da0274e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>HOLA!</h1>
+
+        <div class="redes-container" style="float:right">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/alejo-gabriel-diez-gomez-402b93254/" class="linkedin"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://wa.me/message/EUPN2D4COBLGP1" class="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="title-cards">
+        <h2>Sobre mi</h2>
+    </div>
+
+    <div class="title-cards">
+        <figure>
+            <img src="html and plug\css\img\imgperfil.jpg">
+        </figure>
+        <p>Soy Alejo Gabriel Diez Gomez. Data Scientist, estudiante avanzado de Licenciatura en Economia, emprendedor y apasionado por la tecnologia y las finanzas.</p>
+
+    </div>
+
+
+    <div class="title-cards">
+        <h2>Manejo las siguientes tecnologias </h2>
+    </div>
+
+    <div class="technologies">
+        <div class="technology-card">
+            <img src="html and plug\css\img\logopython2_page-0001.jpg">
+            <p>Python</p>
+        </div>
+
+        <div class="technology-card">
+            <img src="html and plug\css\img\pandaslogo.png">
+            <p>Pandas</p>
+        </div>
+        <div class="technology-card">
+            <img src="html and plug\css\img\numpylogo.png">
+            <p>Numpy</p>
+        </div>
+        <div class="technology-card">
+            <img src="html and plug\css\img\MySQL.png">
+            <p>MySQL</p>
+        </div>
+        <div class="technology-card">
+            <img src="html and plug\css\img\POWERBI2.jpg">
+            <p>Power BI</p>
+        </div>
+        <div class="technology-card">
+            <img src="html and plug\css\img\bigdata2_page-0001.jpg">
+            <p>Big Data</p>
+        </div>
+        <div class="technology-card">
+            <img src="html and plug\css\img\MACHINE LEARNING.jpg">
+            <p>Machine Learning</p>
+        </div>
+    </div>
+
+    <div class="title-cards">
+        <h2>Mis proyectos</h2>
+    </div>
+    <div class="card">
+        <figure>
+            <img src="html and plug\css\img\github.png">
+        </figure>
+        <div class="contenido-card">
+            <h3>Repositorio</h3>
+            <a href="https://github.com/AlejoDiezGomez/proyectos_y_practicas/tree/main">Ver Màs</a>
+        </div>
+    </div>
+    
+    <div class="title-cards">
+        <h2>Contactame </h2>
+    </div>
+
+    <div class="technologies2">
+        <div class="technology-card2">
+            <img  src="html and plug\css\img\pdflogo_page-0001.jpg">
+            <p><a href="html and plug\css\img\pdfcurriculum\Curriculum+Alejo+Diez+Gomez.pdf" target="_blank" >Curriculum</a></p>
+        </div>
+
+        <div class="technology-card2">
+            <img src="html and plug\css\img\6RA1Ax4__400x400.jpg">
+            <p><a href="https://www.linkedin.com/in/alejo-gabriel-diez-gomez-402b93254/" target="_blank">Linkedin</a></p>
+        </div>
+        <div class="technology-card2">
+            <img src="html and plug\css\img\whatslogopdf_page-0001.jpg">
+            <p><a href="https://wa.me/message/EUPN2D4COBLGP1" target="_blank">Whatsapp</a></p>
+        </div>
+    </div>
+
+
+    <div class="content">
+
+       
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                
+                <form  action="https://formspree.io/f/xpzggkpz"
+                method="POST">
+                    <p>
+                        <label>Nombre / Empresa</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Correo</label>
+                        <input type="email" name="email">
+                    </p>
+
+
+                    <p class="block">
+                       <label>Mensaje</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit">
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Mas informacion</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Salta , Argentina</li>
+                    <li><i class="fas fa-phone"></i> (+54) 387 505 4442</li>
+                    <li><i class="fas fa-envelope-open-text"></i> alejodiezgomez@gmail.com</li>
+                </ul>
+                
+                <p>Alejo Gabriel Diez Gomez</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
